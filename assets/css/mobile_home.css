@@ -56,7 +56,7 @@
 .mobile_home_image_container img {
   max-width: 100%;
   height: auto;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .mobile_home_top_black {
@@ -84,7 +84,7 @@
   font-weight: 500;
   line-height: normal;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .mobile_home_top_text{
@@ -98,8 +98,7 @@
   border-radius: 25px;
   overflow: hidden;
   position: relative;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 0.56rem;
   width: 100%;
 }
 
@@ -107,7 +106,7 @@ input[class="mobie_home_search_input"] {
   width: 100%;
   height: 100%;
   /* Set the height to 100% */
-  border: 1px solid #ccc;
+  border: 1px solid #dcdcdc;
   border-radius: 25px;
   padding: 10px;
   outline: none;
@@ -115,8 +114,7 @@ input[class="mobie_home_search_input"] {
 }
 
 .mobie_home_search_input:first-child{
-  padding-right: 90px;
-
+  padding-right: 70px;
 }
 
 .mobile_home_search_text {
@@ -136,18 +134,25 @@ input[class="mobie_home_search_input"] {
   align-items: center;
 }
 
+.mobile_home_new_section{
+  position: relative;
+  width: 100%;
+}
+
 .mobile_home_search_section{
   background-color: #fff;
   border-radius: 0.625rem;
 background: #FFF;
 box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
 padding: 1rem;
-margin-left: 1rem;
-margin-right: 1rem;
+position: absolute;
+width: 95%;
+margin-left: 2.5%;
+bottom:-15%;
 }
 
 .mobile_home_sports{
-  border: 1px solid #ccc;
+  border: 1px solid #dcdcdc;
   border-radius: 25px;
   padding: 8px;
   width: 100%;
@@ -156,7 +161,7 @@ margin-right: 1rem;
 }
 
 .mobile_home_sports::-webkit-scrollbar {
-  height: 0.1rem;
+  height: 0rem;
 }
 
 /* .mobile_home_sports::-webkit-scrollbar-thumb {
@@ -195,4 +200,8 @@ color:#fff !important;
     .mobile_home_right_side button{
         padding: 0.7rem 1rem;
     }
+}
+
+@media only screen and (max-width: 400px) {
+ 
 }
