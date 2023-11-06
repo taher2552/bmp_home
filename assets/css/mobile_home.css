@@ -373,6 +373,7 @@ input[class="mobie_home_search_input"] {
   margin-right: 1rem;
   margin-top: 1rem;
   text-align: justify;
+  min-height:12rem;
 }
 
 .mobile_home_mission_section {
