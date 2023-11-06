@@ -114,30 +114,133 @@
             <p>Let’s Play Your Game</p>
         </div>
 
-        <div class="mobile_home_fb_player">
-            <div class="mobile_home_diffrent_player">
-                <img src="assets/images/fb_player.jpg" alt="">
+        <div class="mobile_home_slide">
+
+            <div class="carousel-container">
+                <div class="carousel-item">
+
+                    <div class="mobile_home_fb_player">
+                        <div class="mobile_home_diffrent_player">
+                            <img src="assets/images/fb_player.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="mobile_home_fb_logo">
+                        <img src="assets/images/logo.svg" alt="">
+                    </div>
+
+                    <div class="mobile_home_fb_heading">
+                        <p>Football</p>
+                        <img src="assets/images/football.svg" alt="">
+                    </div>
+
+                    <div class="mobile_home_fb_para">
+                        <p>Football in India has been experiencing a significant surge in recent years, with a renewed
+                            focus on the
+                            sport and efforts to develop the game at various levels. The Indian Super League (ISL) has
+                            played a
+                            pivotal role in promoting football and attracting both domestic and international talent to
+                            the country.
+                            The league has witnessed a rise in popularity and has garnered a dedicated fan base across
+                            the nation.
+                            Additionally, the success of the Indian national team in recent tournaments and the
+                            emergence of
+                            talented young players have further fueled the excitement around football. The All India
+                            Football
+                            Federation (AIFF) has been actively working on grassroots development programs to identify
+                            and nurture
+                            talent from a young age.</p>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <div class="mobile_home_fb_player">
+                        <div class="mobile_home_diffrent_player">
+                            <img src="assets/images/blog.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="mobile_home_fb_logo">
+                        <img src="assets/images/logo.svg" alt="">
+                    </div>
+
+                    <div class="mobile_home_fb_heading">
+                        <p>Volleyball</p>
+                        <img src="assets/images/football.svg" alt="">
+                    </div>
+
+                    <div class="mobile_home_fb_para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maxime consequuntur iusto,
+                            sunt officia, reiciendis nobis excepturi sequi quaerat perspiciatis tenetur fuga enim facere
+                            mollitia inventore ut officiis, culpa debitis rem suscipit magnam dolorum esse? Deserunt,
+                            natus. Soluta, quos voluptates repudiandae impedit qui voluptatem praesentium itaque quae
+                            magnam, magni odio dicta cupiditate hic aliquid quod eum minima natus? Expedita quos
+                            dignissimos nobis sequi aliquam animi, dolore fugiat, veritatis nam accusantium dolores illo
+                            saepe provident esse? Nam aut aliquam fugiat a.</p>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="mobile_home_fb_player">
+                        <div class="mobile_home_diffrent_player">
+                            <img src="assets/images/fb_player.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="mobile_home_fb_logo">
+                        <img src="assets/images/logo.svg" alt="">
+                    </div>
+
+                    <div class="mobile_home_fb_heading">
+                        <p>Basketball</p>
+                        <img src="assets/images/football.svg" alt="">
+                    </div>
+
+                    <div class="mobile_home_fb_para">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex esse cupiditate commodi saepe
+                            odit nisi, libero facere soluta obcaecati voluptas nulla, veniam, quos culpa quidem eaque
+                            inventore dolor laudantium. Explicabo optio eligendi, autem aliquid quaerat illum
+                            repellendus ea dicta. Impedit..</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="mobile_home_fb_player">
+                        <div class="mobile_home_diffrent_player">
+                            <img src="assets/images/mission_bg.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="mobile_home_fb_logo">
+                        <img src="assets/images/logo.svg" alt="">
+                    </div>
+
+                    <div class="mobile_home_fb_heading">
+                        <p>Hockey</p>
+                        <img src="assets/images/football.svg" alt="">
+                    </div>
+
+                    <div class="mobile_home_fb_para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam provident quidem tenetur
+                            laborum, blanditiis quo harum repellat eos aperiam recusandae.</p>
+                    </div>
+                </div>
+
+
+
             </div>
-        </div>
 
-        <div class="mobile_home_fb_logo">
-            <img src="assets/images/logo.svg" alt="">
-        </div>
+            <div class="carousel-dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
 
-        <div class="mobile_home_fb_heading">
-            <p>Football</p>
-            <img src="assets/images/football.svg" alt="">
-        </div>
 
-        <div class="mobile_home_fb_para">
-            <p>Football in India has been experiencing a significant surge in recent years, with a renewed focus on the
-                sport and efforts to develop the game at various levels. The Indian Super League (ISL) has played a
-                pivotal role in promoting football and attracting both domestic and international talent to the country.
-                The league has witnessed a rise in popularity and has garnered a dedicated fan base across the nation.
-                Additionally, the success of the Indian national team in recent tournaments and the emergence of
-                talented young players have further fueled the excitement around football. The All India Football
-                Federation (AIFF) has been actively working on grassroots development programs to identify and nurture
-                talent from a young age.</p>
+
         </div>
 
 
@@ -378,6 +481,45 @@
             </div>
         </div>
     </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var currentIndex = 0;
+            var items = document.querySelectorAll(".carousel-item");
+            var dots = document.querySelectorAll(".dot");
+
+            function showItem(index) {
+                items.forEach(function (item) {
+                    item.style.display = "none";
+                });
+                dots.forEach(function (dot) {
+                    dot.classList.remove("active");
+                });
+                items[index].style.display = "block";
+                dots[index].classList.add("active");
+            }
+
+            function nextItem() {
+                currentIndex = (currentIndex + 1) % items.length;
+                showItem(currentIndex);
+            }
+
+            function prevItem() {
+                currentIndex = (currentIndex - 1 + items.length) % items.length;
+                showItem(currentIndex);
+            }
+
+            dots.forEach(function (dot, index) {
+                dot.addEventListener("click", function () {
+                    currentIndex = index;
+                    showItem(currentIndex);
+                });
+            });
+
+            setInterval(nextItem, 6000); // Change slide every 3 seconds
+        });
+
+    </script>
 </body>
 
 </html>

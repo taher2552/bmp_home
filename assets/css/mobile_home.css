@@ -759,7 +759,7 @@ input[class="mobie_home_search_input"] {
   margin-top: 2rem;
 }
 
-.mobile_home_fix{
+.mobile_home_fix {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -771,33 +771,30 @@ input[class="mobie_home_search_input"] {
   width: 100%;
 }
 
-
-
-
-.mobile_home_display{
+.mobile_home_display {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-font-family: DM Sans;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-transform: capitalize;
-padding: 1rem;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 1rem;
 }
 
-.mobile_home_display_txt{
-  color:#222;
-font-family: DM Sans;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 600;
-text-transform: capitalize;
+.mobile_home_display_txt {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
-.home_fix_active{
+.home_fix_active {
   border-radius: 0rem 0rem 1.875rem 1.875rem;
   background-color: #fe5c4d50;
   padding: 1rem;
@@ -808,10 +805,41 @@ text-transform: capitalize;
   flex-direction: column;
   color: #fe5c4d !important;
   font-weight: 600;
-
 }
 
 /* footer css ends */
+
+/* caraousel css  */
+
+.carousel-container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+}
+
+.carousel-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dot.active {
+  background-color: green;
+}
+
+/* caraousel css ends */
 
 @media only screen and (max-width: 300px) {
   .mobile_home_right_side button {
