@@ -237,8 +237,8 @@ input[class="mobie_home_search_input"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 94%;
-  margin-left: 3%;
+  width: 92%;
+  margin-left: 4%;
   border-radius: 1.25rem;
   background: #fee4e8;
 }
@@ -246,12 +246,13 @@ input[class="mobie_home_search_input"] {
 .mobile_home_create_text{
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: start;
+  flex-direction: column;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.mobile_home_create_text p{
+.mobile_home_create_text p:first-child{
   color: #222;
 font-family: DM Sans;
 font-size: 2rem;
@@ -259,12 +260,41 @@ font-weight: 900;
 padding: 0.3rem 1.2rem;
 }
 
-.mobile_home_create_text p span{
+.mobile_home_create_text p:first-child span{
   border-radius: 4.375rem;
   background: #FFC2CB;
   padding: 0.3rem 1.2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-left: 0.3rem;
 }
+
+.mobile_home_create_text p:last-child{
+  color: #505050;
+  text-align: justify;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.6rem;
+}
+
+.mobile_home_train{
+  background-color: #D4BAFF !important;
+}
+
+.mobile_home_line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile_home_monetize{
+  background-color: #FFECA5 !important;
+}
+
 
 @media only screen and (max-width: 300px) {
   .mobile_home_right_side button {
