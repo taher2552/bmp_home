@@ -574,28 +574,27 @@ input[class="mobie_home_search_input"] {
   margin-bottom: 1.5rem;
 }
 
-.mobile_home_join{
+.mobile_home_join {
   padding: 1rem;
   background-color: #fe5c4d;
   width: 94%;
   border-radius: 0.625rem;
   margin-left: 3%;
-
 }
 
-.box_1{
-  background: #DFDFDF;
+.box_1 {
+  background: #dfdfdf;
   height: 1rem;
   width: 80%;
   margin: 0 auto;
 }
-.box_2{
-  background: #EAEAEA;;
+.box_2 {
+  background: #eaeaea;
   height: 1rem;
   width: 85%;
   margin: 0 auto;
 }
-.box_3{
+.box_3 {
   background-color: #fff;
   width: 90%;
   margin: 0 auto;
@@ -605,20 +604,20 @@ input[class="mobie_home_search_input"] {
   align-items: center;
 }
 
-.box_mobile_img img{
+.box_mobile_img img {
   margin-top: 1rem;
   height: 5rem;
-  width: 5rem
+  width: 5rem;
 }
 
-.mobile_join_txt p:nth-child(1){
+.mobile_join_txt p:nth-child(1) {
   color: #272221;
-font-family: DM Sans;
-font-size: 1.25rem;
-font-weight: 700;
-text-align: center;
+  font-family: DM Sans;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
 }
-.mobile_join_txt p:nth-child(2){
+.mobile_join_txt p:nth-child(2) {
   color: #222;
   font-family: DM Sans;
   font-size: 0.8rem;
@@ -629,7 +628,7 @@ text-align: center;
   margin-right: 1rem;
 }
 
-.mobile_try_btn button{
+.mobile_try_btn button {
   border-radius: 0.3125rem;
   background: #fe5c4d;
   padding: 0.6rem 0.9rem;
@@ -646,24 +645,23 @@ text-align: center;
 
 /* footer css */
 
-.landing-footer {
+.mobile_home_footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.landing-logo-2 {
+.mobile_home_logo {
   margin-top: 1.5rem;
   margin-bottom: 0.94rem;
 }
 
-.landing-footer-para {
+.mobile_home_footer_para {
   padding-bottom: 0.8rem;
 }
 
-
-.landing-insta {
+.mobile_home_insta {
   margin-left: 0.5rem;
 }
 
@@ -674,22 +672,18 @@ text-align: center;
   justify-content: center;
 }
 
-
-
-
-
-.landing-address {
+.mobile_home_address {
   width: 70%;
   margin: 0 auto;
   text-align: center;
   color: #505050;
-font-family: DM Sans;
-font-size: 0.8rem;
-font-style: normal;
-font-weight: 500;
-line-height: 1.125rem;
-letter-spacing: -0.02563rem;
-margin-top: 0.3rem;
+  font-family: DM Sans;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.125rem;
+  letter-spacing: -0.02563rem;
+  margin-top: 0.3rem;
 }
 
 .landind-get-in-touch {
@@ -698,10 +692,9 @@ margin-top: 0.3rem;
   text-align: center;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-
 }
 
-.landing-contact {
+.mobile_home_contact {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -709,61 +702,61 @@ margin-top: 0.3rem;
   margin-bottom: 1.8rem;
 }
 
-.landing-contact-no {
+.mobile_home_contact_no {
   margin-left: 0.5rem;
   color: #222;
-font-family: DM Sans;
-font-size: 0.8rem;
-font-style: normal;
-font-weight: 500;
+  font-family: DM Sans;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
 }
 
-.landing-bottom {
-  background-color: #17479E;;
+.mobile_home_bottom {
+  background-color: #17479e;
   text-align: center;
   padding: 0.5rem 1rem;
   width: 100%;
 }
 
-.landing-copyright {
+.mobile_home_copyright {
   color: #fff;
-text-align: center;
-font-family: DM Sans;
-font-size: 0.875rem;
-font-weight: 500;
-line-height: normal;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: normal;
 }
 
-.landing-copyright span{
- font-weight: 700;
+.mobile_home_copyright span {
+  font-weight: 700;
 }
 
-.landing-para {
+.mobile_home_para {
   margin-left: 1rem;
   margin-right: 1rem;
   text-align: justify;
   padding-bottom: 2rem;
 }
 
-.landing-description {
+.mobile_home_description {
   color: #505050;
-text-align: center;
-font-family: DM Sans;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 500;
-line-height: 1.25rem;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
 }
 
-.mobile_home_touch{
+.mobile_home_touch {
   color: #222;
-font-family: DM Sans;
-font-size: 1rem;
-font-style: normal;
-font-weight: 700;
-text-transform: uppercase;
-text-align: center;
-margin-top: 2rem;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 /* footer css ends */
