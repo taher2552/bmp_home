@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 1rem;
+  padding: 0 1rem;
 }
 
 .mobile_home_right_side {
@@ -68,7 +68,6 @@
   text-align: center;
   font-family: DM Sans;
   font-size: 1.625rem;
-  font-style: italic;
   font-weight: 800;
   line-height: 1.75rem;
   text-transform: uppercase;
@@ -716,6 +715,7 @@ input[class="mobie_home_search_input"] {
   text-align: center;
   padding: 0.5rem 1rem;
   width: 100%;
+  margin-bottom: 6.3rem;
 }
 
 .mobile_home_copyright {
@@ -757,6 +757,58 @@ input[class="mobie_home_search_input"] {
   text-transform: uppercase;
   text-align: center;
   margin-top: 2rem;
+}
+
+.mobile_home_fix{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  max-width: 550px;
+  width: 100%;
+}
+
+
+
+
+.mobile_home_display{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+font-family: DM Sans;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+padding: 1rem;
+}
+
+.mobile_home_display_txt{
+  color:#222;
+font-family: DM Sans;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+text-transform: capitalize;
+}
+
+.home_fix_active{
+  border-radius: 0rem 0rem 1.875rem 1.875rem;
+  background-color: #fe5c4d50;
+  padding: 1rem;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fe5c4d !important;
+  font-weight: 600;
+
 }
 
 /* footer css ends */
