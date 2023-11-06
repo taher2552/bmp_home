@@ -367,6 +367,55 @@ margin-top: 1rem;
 text-align: justify;
 }
 
+.mobile_home_mission_section{
+  background-image: url('../images/mission_bg.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.mobile_mission_para{
+  padding: 1rem;
+  border-radius: 0.625rem;
+background: #FE5C4D;
+color: #fff;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: justify;
+}
+
+.mobile_home_learn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.mobile_home_learn p{
+  color: #FFF;;
+  font-family: DM Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.mobile_home_learn button{
+  border-radius: 0.3125rem;
+background: #FFF;
+padding: 0.5rem 0.6rem;
+color:#FE5C4D;
+outline: none;
+border: none;
+cursor: pointer;
+font-family: DM Sans;
+font-weight: 700;
+text-transform: uppercase;
+}
+
 
 @media only screen and (max-width: 300px) {
   .mobile_home_right_side button {
