@@ -295,6 +295,78 @@ padding: 0.3rem 1.2rem;
   background-color: #FFECA5 !important;
 }
 
+.mobile_home_curve_arrow{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.mobile_home_curve_arrow img{
+  width: 3rem;
+height: 1.3rem;
+flex-shrink: 0;
+}
+
+.mobile_home_curve_arrow p{
+  color: #222;
+font-family: DM Sans;
+font-size: 1.5rem;
+font-weight: 700;
+margin-left: 0.3rem;
+}
+
+.mobile_home_fb_player{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile_home_diffrent_player img{
+   border-radius: 0.625rem;
+   width: 92%;
+   margin-left: 4%;
+   margin-top: 1rem;
+   height: auto;
+}
+
+.mobile_home_fb_logo img{
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  height: 5rem;
+  width: 5rem;
+
+}
+
+.mobile_home_fb_heading{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.mobile_home_fb_heading p{
+  color: #222;
+font-family: DM Sans;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 700;
+margin-right: 0.3rem;
+margin-left: 1rem;
+}
+
+.mobile_home_fb_para p{
+  color: #505050;
+font-family: DM Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25rem;
+margin-left: 1rem;
+margin-right: 1rem;
+margin-top: 1rem;
+text-align: justify;
+}
+
 
 @media only screen and (max-width: 300px) {
   .mobile_home_right_side button {
